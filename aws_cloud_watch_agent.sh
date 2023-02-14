@@ -2,7 +2,7 @@
 sudo yum install amazon-cloudwatch-agent
 
 #run the wizard
-sudo /opt/aws/amzaon-cloudwatch-agent/bin/amazon-cloudwatch-agent-config-wizard
+sudo /opt/aws/amazon-cloudwatch-agent/bin/amazon-cloudwatch-agent-config-wizard
 
 #create some missing files
 sudo mkdir -p /usr/share/collectd
